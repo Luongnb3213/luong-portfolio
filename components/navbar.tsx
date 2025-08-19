@@ -74,7 +74,7 @@ export const Navigation = () => {
         </NavbarContent>
 
         <NavbarItem>
-          <ThemeSwitcher />
+          {/* <ThemeSwitcher /> */}
         </NavbarItem>
 
         <NavbarMenuToggle
