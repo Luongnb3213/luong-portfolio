@@ -239,11 +239,11 @@ export const DATA = {
         title: 'ScrapeFlow',
         description:
           'A web scraping automation tool designed to extract, clean, and visualize structured data.',
-        image: '/scrapeflow/scrapeflow_1.png', // thay bằng ảnh của bạn
+        image: '/scrapeflow/ScrapeFlow_1.png', // thay bằng ảnh của bạn
         gallery: [
-          '/scrapeflow/scrapeflow_1.png',
-          '/scrapeflow/scrapeflow_2.png',
-          '/scrapeflow/scrapeflow_3.png',
+          '/scrapeflow/ScrapeFlow_1.png',
+          '/scrapeflow/ScrapeFlow_2.png',
+          '/scrapeflow/ScrapeFlow_3.png',
         ],
         category: 'Applications',
         details:
