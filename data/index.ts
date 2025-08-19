@@ -73,8 +73,7 @@ export const DATA = {
     profile: {
       name: 'Pham Luong',
       title: 'Full Stack Developer',
-      image:
-        '/account.jpg',
+      image: '/account.jpg',
       description: [
         "I'm a creative full-stack developer with a passion for UI/UX design and clean code. I focus on building beautiful, functional, and high-performance websites and web apps.",
         'My approach is both technical and aesthetic — I enjoy turning complex problems into elegant user experiences. I work primarily with modern frameworks like React, Vite, and TailwindCSS.',
@@ -83,50 +82,38 @@ export const DATA = {
     },
     education: [
       {
-        title: 'High School of Art and Design',
-        date: '2003 - 2006',
-        icon: 'mdi:palette',
-        description:
-          'Focused on foundational art and visual design principles, which sparked my early interest in creative problem solving. Explored traditional media, digital illustration, and visual storytelling.',
-      },
-      {
-        title: 'University of Technology and Design',
-        date: '2006 - 2010',
-        icon: 'mdi:school',
-        description:
-          "Earned a Bachelor's degree in Computer Science with a minor in Design. Gained strong skills in software development, user interface engineering, data structures, and human-computer interaction.",
-      },
-      {
-        title: 'Institute of Interactive Media',
-        date: '2011 - 2012',
+        title: 'FPT University',
+        date: '2021 - 2024',
         icon: 'mdi:school-outline',
         description:
-          "Completed a Master's degree specializing in UX/UI Design and Front-End Development. Merged technical expertise with visual communication to design user-centered digital products and prototypes.",
+          "Bachelor's degree in Software Engineering. Focused on full-stack development and modern JavaScript frameworks. Developed graduation projects and internships with real-world applications.",
       },
     ],
+
     experience: [
       {
-        title: 'Creative Director',
-        date: '2018 - Present',
+        title: 'Frontend Developer',
+        date: '2023 - Present',
         icon: 'mdi:briefcase',
         description:
-          'Lead creative and development teams to build digital experiences that combine innovation with user empathy. Oversee branding, UI/UX strategy, and development pipelines for tech startups and clients.',
+          'Developed web applications and SaaS products with ReactJS, TailwindCSS, and Node.js. Key projects include NextSky Affiliate Program and ScrapeFlow. Focused on building reusable components, responsive design, and improving performance.',
       },
       {
-        title: 'Senior UX Engineer',
-        date: '2015 - 2018',
+        title: 'Frontend & Backend Developer - Ticksify',
+        date: '2023 - Present',
         icon: 'mdi:monitor-dashboard',
         description:
-          'Designed and implemented high-fidelity web interfaces using React, Figma, and Tailwind. Collaborated cross-functionally with developers and designers to craft intuitive user flows and interactions.',
+          'Enhanced an internal support system using ReactJS integrated with Laravel APIs. Implemented features such as PayOS payments, license renewals, and analytics dashboards with data visualization.',
       },
       {
-        title: 'Front-End Developer & Designer',
-        date: '2012 - 2015',
-        icon: 'mdi:code-tags',
+        title: 'Frontend Developer',
+        date: '2023 - 2024',
+        icon: 'mdi:palette',
         description:
-          'Developed responsive websites and applications with a focus on accessibility, visual aesthetics, and performance. Delivered pixel-perfect interfaces from wireframes to production code.',
+          'Built and optimized premium Shopify themes such as Agile, Umino, and Glozin. Implemented responsive UIs, ReactJS components, and TailwindCSS styling. These themes reached over 1,500 sales with an average 4.9/5 rating, improving storefront speed and conversion.',
       },
     ],
+
     technologies: {
       frontend: {
         description:
@@ -134,7 +121,7 @@ export const DATA = {
         tools: [
           { name: 'React', icon: 'logos:react' },
           { name: 'Next.js', icon: 'skill-icons:nextjs-dark' },
-          { name: 'Tailwind', icon: 'logos:tailwindcss-icon' },
+          { name: 'TailwindCSS', icon: 'logos:tailwindcss-icon' },
           { name: 'TypeScript', icon: 'logos:typescript-icon' },
           { name: 'HTML5', icon: 'logos:html-5' },
           { name: 'CSS3', icon: 'logos:css-3' },
@@ -142,40 +129,55 @@ export const DATA = {
       },
       backend: {
         description:
-          'I build fast APIs and scalable backends using Node.js, Bun, and Python.',
+          'I build fast APIs and scalable backends using Node.js, PHP, and TypeScript frameworks.',
         tools: [
           { name: 'Node.js', icon: 'logos:nodejs-icon' },
-          { name: 'Bun', icon: 'logos:bun' },
-          { name: 'Python', icon: 'logos:python' },
+          { name: 'NestJS', icon: 'simple-icons:nestjs' },
+          { name: 'Express', icon: 'simple-icons:express' },
+          { name: 'Laravel', icon: 'logos:laravel' },
+          { name: 'Livewire', icon: 'simple-icons:livewire' },
+          { name: 'REST API', icon: 'simple-icons:api' },
+          { name: 'GraphQL', icon: 'logos:graphql' },
+        ],
+      },
+      database: {
+        description:
+          'I design and manage relational and non-relational databases for scalable web applications.',
+        tools: [
           { name: 'MySQL', icon: 'logos:mysql-icon' },
-          { name: 'PostgresSQL', icon: 'logos:postgresql' },
-          { name: 'OpenAI', icon: 'simple-icons:openai' },
+          { name: 'PostgreSQL', icon: 'logos:postgresql' },
+          { name: 'MongoDB', icon: 'logos:mongodb-icon' },
+          { name: 'Redis', icon: 'logos:redis' },
         ],
       },
-      uiUx: {
+      tools: {
         description:
-          'I design smooth, user-centered interfaces and high-fidelity prototypes.',
+          'Daily tools for productivity, version control, and deployment.',
         tools: [
+          { name: 'Git', icon: 'logos:git-icon' },
+          { name: 'GitHub', icon: 'logos:github-icon' },
+          { name: 'Docker', icon: 'logos:docker-icon' },
+          { name: 'Postman', icon: 'simple-icons:postman' },
           { name: 'Figma', icon: 'logos:figma' },
-          { name: 'Framer', icon: 'simple-icons:framer', color: '#0055FF' },
-          { name: 'Notion', icon: 'logos:notion-icon' },
+          { name: 'VS Code', icon: 'logos:visual-studio-code' },
         ],
       },
-      graphicDesign: {
+      others: {
         description:
-          'My graphic work includes logos, branding, and posters using Adobe Suite.',
+          'Core knowledge and professional practices that support scalable, production-ready applications.',
         tools: [
-          { name: 'Photoshop', icon: 'logos:adobe-photoshop' },
-          { name: 'Illustrator', icon: 'logos:adobe-illustrator' },
-        ],
-      },
-      motionDesign: {
-        description:
-          'I animate UI flows and cinematic intros using After Effects and Blender.',
-        tools: [
-          { name: 'After Effects', icon: 'logos:adobe-after-effects' },
-          { name: 'Premiere Pro', icon: 'logos:adobe-premiere' },
-          { name: 'Blender', icon: 'logos:blender' },
+          { name: 'OOP', icon: 'mdi:code-braces' },
+          { name: 'Data Structures & Algorithms', icon: 'mdi:chart-tree' },
+          {
+            name: 'Relational & Non-relational Databases',
+            icon: 'mdi:database',
+          },
+          { name: 'ORM', icon: 'mdi:table-large' },
+          { name: 'RESTful API', icon: 'mdi:api' },
+          { name: 'GraphQL', icon: 'logos:graphql' },
+          { name: 'CI/CD', icon: 'mdi:cached' },
+          { name: 'Cloud Storage', icon: 'mdi:cloud-outline' },
+          { name: 'Payment Gateways', icon: 'mdi:credit-card-outline' },
         ],
       },
     },

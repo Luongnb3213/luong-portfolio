@@ -21,7 +21,7 @@ export const Skills = ({ tech }: SkillsProps) => (
   >
     <SectionHeader icon="mdi:tools" title="Skills" />
 
-    <Accordion selectionMode="multiple" variant="bordered">
+    <Accordion selectionMode="multiple"  variant="bordered">
       {Object.entries(tech).map(([category, { description, tools }]) => (
         <AccordionItem
           key={category}
