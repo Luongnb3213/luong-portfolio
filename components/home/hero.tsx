@@ -67,7 +67,7 @@ export const HeroSection = ({
               download
               aria-label="Download CV in PDF format"
               className="w-full sm:w-auto"
-              href="/Pham-Duc-Luong-FE.pdf"
+              href="/Pham-Duc-Luong-Fullstack-Developer.pdf"
             >
               <Button
                 fullWidth

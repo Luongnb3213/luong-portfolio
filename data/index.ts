@@ -2,7 +2,7 @@ export const DATA = {
   home: {
     hero: {
       name: 'PHAM LUONG',
-      title: 'Front-End Web Developer',
+      title: 'FullStack Web Developer',
       subtitle:
         'I build fast, accessible and visually engaging web experiences.',
     },
@@ -205,7 +205,7 @@ export const DATA = {
         github: '',
         live: 'https://support.nextsky.co/',
         tech: [
-          { name: 'Laravel', icon: 'logos:laravel' },
+          { name: 'NestJs', icon: 'logos:nestjs' },
           { name: 'React', icon: 'logos:react' },
           { name: 'TailwindCSS', icon: 'logos:tailwindcss-icon' },
           { name: 'MySQL', icon: 'logos:mysql-icon' },
